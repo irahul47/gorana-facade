@@ -50,7 +50,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section className="bg-gray-100">
+    <section id="projects" className="bg-gray-100">
       <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:flex lg:space-x-8 lg:px-8">
         <div className="mb-10 lg:w-80 lg:flex-none">
           <h1 className="mb-3 text-xl font-semibold">Featured Projects</h1>
