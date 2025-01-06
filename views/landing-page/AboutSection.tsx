@@ -2,9 +2,8 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <section className="bg-slate-100">
-      <div className="mx-auto max-w-7xl px-4 py-20 text-center sm:px-6 lg:px-8">
-        <h1 className="mb-3 text-xl font-medium">About Us</h1>
+    <section>
+      <div className="mx-auto max-w-5xl px-4 py-20 text-center sm:px-6 lg:px-8">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus
           maiores minus ad, veritatis iusto neque id ipsam nihil atque totam
@@ -18,6 +17,7 @@ const AboutSection = () => {
           quisquam, quae cumque ipsam nostrum iusto quidem velit cupiditate
           repellendus magnam? Alias laudantium recusandae magni ad minima.
         </p>
+        <div className="mx-auto mt-8 h-1 w-16 bg-blue-950" />
       </div>
     </section>
   );

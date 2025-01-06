@@ -11,31 +11,22 @@ const CLIENTS = [
   "Client 8",
   "Client 9",
   "Client 10",
-  "Client 11",
-  "Client 12",
-  "Client 13",
-  "Client 14",
-  "Client 15",
-  "Client 16",
-  "Client 17",
-  "Client 18",
-  "Client 19",
-  "Client 20",
 ];
 
 const OurClientsSection = () => {
   return (
-    <section>
-      <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
-        <div className="mb-10">
-          <h1 className="mb-3 text-center text-xl font-medium">Our Clients</h1>
-          <div className="text-center">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            quaerat possimus officia repudiandae quibusdam placeat iure
-            reiciendis neque consequuntur soluta.
-          </div>
+    <section className="bg-gray-100">
+      <div className="mx-auto max-w-5xl px-4 py-20 sm:px-6 lg:px-8">
+        <div className="mb-10 text-center">
+          <h1 className="mb-3 text-xl font-semibold">Trusted Clients</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
         </div>
-        <div className="grid grid-cols-5 gap-4">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
           {CLIENTS.map((client, idx) => (
             <h3 key={idx}>{client}</h3>
           ))}

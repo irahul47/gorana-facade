@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { ArrowLongRightIcon } from "@heroicons/react/24/solid";
 
 interface Props {
   imageSrc: string;
@@ -8,11 +9,14 @@ interface Props {
 
 const ProjectCard = ({ imageSrc, title }: Props) => {
   return (
-    <div>
-      <div className="relative mb-1 h-64 w-full">
+    <div className="select-none">
+      <div className="relative h-64 w-full cursor-pointer overflow-hidden rounded-md">
         <Image src={imageSrc} fill alt="commercial-alt" />
       </div>
-      <h3>{title}</h3>
+      <div className="mt-2.5 flex cursor-pointer items-center px-2.5">
+        <h3 className="text-xl font-semibold">{title}</h3>
+        <ArrowLongRightIcon className="ml-1.5 size-6 flex-none" />
+      </div>
     </div>
   );
 };
