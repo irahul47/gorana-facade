@@ -16,13 +16,13 @@ const PROCESSES = [
     title: "Installation",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, iusto officiis! Soluta ullam fuga quas, illo, asperiores quis facilis molestias culpa magnam odio cum veritatis ratione? Ab blanditiis delectus minus repellat, tenetur, quae corporis omnis, molestias consectetur enim natus dolores ea necessitatibus inventore nam vitae. Et nostrum sint nam repellat.",
-    defaultOpen: false,
+    defaultOpen: true,
   },
   {
     title: "Design",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, iusto officiis! Soluta ullam fuga quas, illo, asperiores quis facilis molestias culpa magnam odio cum veritatis ratione? Ab blanditiis delectus minus repellat, tenetur, quae corporis omnis, molestias consectetur enim natus dolores ea necessitatibus inventore nam vitae. Et nostrum sint nam repellat.",
-    defaultOpen: false,
+    defaultOpen: true,
   },
 ];
 
