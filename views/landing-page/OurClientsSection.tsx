@@ -17,7 +17,7 @@ const OurClientsSection = () => {
     <section className="bg-gray-100">
       <div className="mx-auto max-w-5xl px-4 py-20 sm:px-6 lg:px-8">
         <div className="mb-10 text-center">
-          <h1 className="mb-3 text-xl font-semibold">Trusted Clients</h1>
+          <h1 className="mb-3 text-xl font-semibold">Our Clients</h1>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -27,7 +27,10 @@ const OurClientsSection = () => {
         </div>
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 xl:grid-cols-4">
           {CLIENTS.map((clientSrc, idx) => (
-            <div key={idx} className="rounded-md bg-white p-4 shadow">
+            <div
+              key={idx}
+              className="select-none rounded-md bg-white p-4 shadow"
+            >
               <div className="relative h-14 w-auto">
                 <Image
                   src={clientSrc}

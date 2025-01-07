@@ -57,15 +57,13 @@ const ContactSection = () => {
             <h3 className="mb-4 text-lg font-semibold uppercase">Contact Us</h3>
             <div>
               <span>Email: </span>
-              <Link href={"mailto:goranafacadesolutions@gmail.com"}>
-                goranafacadesolutions@gmail.com
+              <Link href={"mailto:gorana2010@gmail.com"}>
+                gorana2010@gmail.com
               </Link>
             </div>
             <div>
               <span>Phone: </span>
-              <Link href={"mailto:goranafacadesolutions@gmail.com"}>
-                +91 12345-67890
-              </Link>
+              <Link href={"tel:+919824168203"}>+91 98241-68203</Link>
             </div>
           </div>
           <div>
