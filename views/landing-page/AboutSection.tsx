@@ -5,7 +5,7 @@ const AboutSection = () => {
     <section id="about">
       <div className="mx-auto max-w-5xl px-4 py-20 text-center sm:px-6 lg:px-8">
         <p>
-          Since 1999, Gorana Facade Solutions has been the trusted partner for
+          Since 1997, Gorana Facade Solutions has been the trusted partner for
           exceptional facade solutions. We specialize in cladding, glazing,
           curtain walls, windows, and handrails, delivering outstanding results
           on every project. Our market leadership is driven by a dedication to
