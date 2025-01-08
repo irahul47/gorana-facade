@@ -9,19 +9,19 @@ const PROCESSES = [
   {
     title: "Timely Delivery",
     description:
-      "At Gorana Facade Solution, we understand the importance of delivering projects on schedule. Timely completion has been our top priority since our inception, allowing us to build a strong reputation in the facade industry. We approach every project with meticulous planning and effective time management, ensuring we meet deadlines without compromising quality. Our dedicated team of professionals works seamlessly to complete each project on time, adhering to the strictest industry standards. Clients trust us for our reliability and consistency, knowing that we deliver not just results, but results on time.",
+      "At Gorana Facade Solutions, on-time project completion is paramount. Since our inception, we've prioritized meeting deadlines through meticulous planning and efficient time management, earning a reputation for unwavering reliability within the facade industry. Our dedicated professionals collaborate seamlessly to deliver exceptional results without compromising quality, ensuring client trust in our commitment to both excellence and punctuality.",
     defaultOpen: true,
   },
   {
     title: "Quality Excellence",
     description:
-      "Unwavering commitment to quality is at the core of everything we do at Gorana Facade Solution. We believe in delivering solutions that stand the test of time, with attention to detail in every aspect of our work. From the materials we use to our construction techniques, we prioritize excellence at every step. Our finished projects are a testament to our high standards, earning us the trust and respect of our clients. With every project, we strive to set new benchmarks in the industry, offering facade solutions that combine aesthetics, durability, and superior craftsmanship.",
+      "At Gorana Facade Solutions, an unwavering commitment to quality is the cornerstone of our operations. We meticulously craft long-lasting facade solutions, attending to every detail throughout the entire process. From the careful selection of premium materials to the implementation of advanced construction methodologies, we maintain uncompromising standards in all facets of our work. The exceptional quality of our completed projects reflects these rigorous standards, fostering trust and earning the respect of our clients. With each undertaking, we aim to elevate industry benchmarks, delivering facade solutions that seamlessly integrate aesthetics, enduring durability, and exceptional craftsmanship.",
     defaultOpen: true,
   },
   {
     title: "Collaborative Partnerships",
     description:
-      "At Gorana Facade Solution, we believe that strong relationships are the key to successful projects. We work closely with clients, architects, and project managers to ensure open communication and collaboration at every stage of the process. By fostering these partnerships, we create a working environment that drives efficiency and innovation. Our approach to collaboration extends beyond project completion, as we believe in building long-lasting relationships that add value to all stakeholders. Whether it's understanding client needs or working hand-in-hand with architects, our commitment to teamwork ensures that we deliver exceptional results.",
+      "At Gorana Facade Solutions, strong collaboration is the foundation of successful projects. We partner closely with clients, architects, and project managers, prioritizing open communication and fostering a cooperative culture throughout the project. These partnerships enhance efficiency, streamline workflows, and drive innovation, while our commitment to teamwork extends beyond project completion to build lasting, mutually beneficial relationships. From understanding client needs to refining design concepts with architects, our dedication to collaborative practices guarantees exceptional results and a consistently smooth project experience.",
     defaultOpen: true,
   },
 ];

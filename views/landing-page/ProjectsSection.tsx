@@ -1,6 +1,7 @@
 import ProjectCard from "@/components/ProjectCard";
 import React, { useState } from "react";
 import { ArrowRightIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
+import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Swiper as SwiperCore } from "swiper/types";
 import clsx from "clsx";
@@ -83,7 +84,12 @@ const ProjectsSection = () => {
           </div>
         </div>
         <Swiper
+          modules={[Autoplay]}
           slidesPerView={1.2}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
           spaceBetween={16}
           onSwiper={setSwiperInstance}
           onSlideChange={() =>
